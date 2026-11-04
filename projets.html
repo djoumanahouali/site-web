@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Exemples de projets SOC du portfolio de Djoumana.">
+	<title>Djoumana - Projets SOC</title>
+</head>
+<body>
+	<div class="page">
+		<header>
+			<a class="logo" href="index.html">Djoumana</a>
+			<nav aria-label="Navigation principale">
+				<a href="index.html">Accueil</a>
+				<a href="#projets">Projets SOC</a>
+                <a href="projets.html">Projets bis SOC</a>
+            	<a href="index.html#contact">Contact</a>
+            </nav>
+		</header>
+
+		<main>
+			<section class="hero">
+				<a class="back" href="index.html">← Retour à l’accueil</a>
+				<div class="eyebrow">Portfolio / Security Operations Center</div>
+				<h1>Des projets pour voir la menace avant qu’elle ne s’installe.</h1>
+				<h2>Un titre en h2</h2>
+                <h3>Un titre en h3</h3>
+                <h4>Un titre en h4</h4>
+                <h5>Un titre en h5</h5>
+                <h6>Un titre en h6</h6>
+				<p>Une sélection d’exemples de projets SOC : de la collecte des journaux à la réponse à incident, avec une approche orientée preuve, contexte et amélioration continue.</p>
+			</section>
+
+			<section class="projects" id="projets" aria-label="Exemples de projets SOC">
+				<article class="project featured">
+					<div class="project-top"><span class="number">SOC / 01</span><span class="meta">Projet principal</span></div>
+					<h2>Centre de supervision pour une PME industrielle</h2>
+					<p>Conception d’un mini-SOC capable de centraliser les événements Windows, les journaux réseau et les alertes endpoint. Le projet comprend la création de règles de détection, la qualification des incidents et un tableau de bord quotidien.</p>
+					<div class="project-bottom"><ul><li>SIEM</li><li>Windows Event Logs</li><li>MITRE ATT&CK</li><li>Playbooks</li></ul><span class="status">Déployé en laboratoire</span></div>
+				</article>
+
+				<article class="project">
+					<div class="project-top"><span class="number">SOC / 02</span><span class="meta">Détection</span></div>
+					<h2>Détection de comportements anormaux</h2>
+					<p>Création de règles pour identifier les échecs de connexion répétés, les horaires inhabituels et les mouvements latéraux dans un environnement de test.</p>
+					<div class="project-bottom"><ul><li>Python</li><li> Sigma</li><li>Analyse logs</li></ul><span class="status">Terminé</span></div>
+				</article>
+
+				<article class="project">
+					<div class="project-top"><span class="number">SOC / 03</span><span class="meta">Réponse</span></div>
+					<h2>Playbook de réponse phishing</h2>
+					<p>Formalisation du traitement d’un e-mail suspect : triage, enrichissement IOC, recherche de propagation et étapes de confinement pour réduire le temps de réponse.</p>
+					<div class="project-bottom"><ul><li>IOC</li><li>OSINT</li><li>Incident response</li></ul><span class="status">Terminé</span></div>
+				</article>
+
+				<article class="project">
+					<div class="project-top"><span class="number">SOC / 04</span><span class="meta">Vulnérabilités</span></div>
+					<h2>Suivi de la surface d’attaque</h2>
+					<p>Inventaire des actifs exposés, hiérarchisation des vulnérabilités et suivi des corrections à partir du risque métier plutôt que du seul score technique.</p>
+					<div class="project-bottom"><ul><li>CVSS</li><li>Inventaire</li><li>Reporting</li></ul><span class="status">En cours</span></div>
+				</article>
+			</section>
+
+			<section class="process" aria-label="Méthode de travail SOC">
+				<div class="process-step"><strong>01 / COLLECTER</strong><h3>Rassembler les signaux</h3><p>Identifier les sources utiles et fiabiliser les journaux.</p></div>
+				<div class="process-step"><strong>02 / QUALIFIER</strong><h3>Donner du contexte</h3><p>Comparer les faits, les actifs et les indicateurs de menace.</p></div>
+				<div class="process-step"><strong>03 / RÉPONDRE</strong><h3>Contenir l’incident</h3><p>Appliquer un playbook proportionné et traçable.</p></div>
+				<div class="process-step"><strong>04 / AMÉLIORER</strong><h3>Réduire le bruit</h3><p>Mesurer les résultats et affiner les détections.</p></div>
+			</section>
+		</main>
+
+		<footer><span>© 2026 Djoumana</span><span>Construire. Détecter. Protéger.</span></footer>
+	</div>
+</body>
+</html>
